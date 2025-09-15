@@ -1,5 +1,5 @@
 // Typewriter effect
-const text = "Hi, I'm Deep_code_Deepak";
+const text = "Hi, I'm Deepak L";
 let index = 0;
 function typeWriter() {
   if (index < text.length) {
