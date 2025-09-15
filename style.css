@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0d0d0d;
+  padding: 10px;
+  z-index: 1000;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0ff;
+  font-weight: bold;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff0;
+  text-shadow: 0 0 20px #ff0, 0 0 40px #f0f;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #111, #000);
+  text-align: center;
+}
+
+#typewriter {
+  font-size: 3em;
+  color: #0ff;
+  text-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+.glow {
+  font-size: 1.5em;
+  color: #ff0;
+  text-shadow: 0 0 20px #ff0, 0 0 40px #f0f;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #0ff;
+  text-shadow: 0 0 15px #0ff, 0 0 30px #00f;
+}
+
+/* About Section */
+#about, #portfolio, #contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.highlight {
+  color: #ff0;
+  text-shadow: 0 0 10px #ff0, 0 0 20px #f0f;
+}
+
+/* Achievements */
+#achievements {
+  position: relative;
+  padding: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.card {
+  min-width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background: #111;
+  border: 2px solid #0ff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #0ff;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #0ff;
+  border: none;
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+  color: #000;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #0ff;
+}
+
+#prevBtn { left: 20px; }
+#nextBtn { right: 20px; }
+
+/* Portfolio */
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+}
+
+/* Contact */
+.contact-info a {
+  color: #0ff;
+  text-decoration: none;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+}
+
+.contact-info a:hover {
+  color: #ff0;
+  text-shadow: 0 0 20px #ff0, 0 0 40px #f0f;
+}
+
+/* Back to top */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0ff;
+  color: #000;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5em;
+  box-shadow: 0 0 20px #0ff;
+  display: none;
+}
